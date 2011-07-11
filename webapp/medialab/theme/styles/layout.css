@@ -24,9 +24,12 @@
    * @affected IE8, FF, Webkit, Opera
    * @css-for all
    * @valid CSS3
-   */
 
   body { overflow-y: scroll; }
+
+
+   */
+
 
   /*------------------------------------------------------------------------------------------------------*/
   
@@ -76,7 +79,7 @@
   	margin: auto;
   }
   #menu {
-  width:500px;
+  width:560px;
   margin-left: auto ;
   margin-right: auto ;
 

@@ -414,11 +414,13 @@ ul.embuttons li a.current span, ul.embuttons li a:hover span
 
 .em-rounded
 {
-	border-radius: 8px 8px;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
-	
-	box-shadowul.embuttons 
+   -moz-border-radius: 8px 8px 8px 8px;
+    -moz-box-shadow: 0 0 20px #000000;
+    background: none repeat scroll 0 0 rgba(31, 31, 31, 0.898);
+    border: 1px solid #000000;
+    padding: 5px;
+}	
+.embuttons 
 {
 	padding: 5px;
 	margin: 10px;
@@ -723,7 +725,7 @@ ul.editbuttons li a.current span, ul.editbuttons li a:hover span
 	background-repeat: no-repeat;
 	background-position: top left;
 	background-image: url("../images/navigation/folderclosed.png");
-	line-height: 16px;
+	line-height: 16px;emr
 }
 #emcontainer .folderlink A span
 {
@@ -738,3 +740,44 @@ ul.editbuttons li a.current span, ul.editbuttons li a:hover span
 {
 	color: #666;
 }
+
+.emdetailactions 
+{
+	padding-top: 40px;
+	list-style: none;	
+	width: 130px;
+	margin: auto;
+}
+.emdetailactions li
+{
+	margin:0 0 6px 0; 
+	width: 130px;
+	white-space: nowrap;
+}
+.emdetailactions .ui-button-text
+{
+	
+}
+
+.uipanel
+{
+	margin: 0px 10px 10px 10px;	
+}
+
+#emdialog #emcontainer {
+    background-color: transparent;
+    height: 100%;
+    padding: 25px 35px 35px 45px;
+}
+
+div.emrounded {
+  background: #2d2c2c url(../images/bl_9_2d2c2c_121212.gif) no-repeat bottom left;
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 9px;
+  margin: 1em 10px 0 0 ;
+  opacity: 1;
+  filter:alpha(opacity=1);
+  
+}
+

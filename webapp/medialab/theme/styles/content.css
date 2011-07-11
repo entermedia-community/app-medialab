@@ -29,7 +29,7 @@
 
   /* (en) reset font size for all elements to standard (16 Pixel) */
   /* (de) Alle Schriftgrößen auf Standardgröße (16 Pixel) zurücksetzen */
-  html * { font-size:100.01%; }
+  html * { font-size:100%; }
 
 
  /**
@@ -50,6 +50,7 @@
     font-size:75.00%;
     color:#999999;
     margin: 0;
+     background-color: transparent;
  
   }
 
