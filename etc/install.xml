@@ -15,11 +15,11 @@
  	
   <target name="update-dependencies" depends="clean">
 		<mkdir dir="${build}"/>
-		<get src="http://dev.entermediasoftware.com/jenkins/job/app-medialab/lastSuccessfulBuild/artifact/deploy/app-eml.zip" dest="${build}/eml.zip" />	
+		<get src="http://dev.entermediasoftware.com/jenkins/job/app-medialab/lastSuccessfulBuild/artifact/deploy/app-medialab.zip" dest="${build}/medialab.zip" />	
   </target>
     
   <target name="unzip" depends="update-dependencies">
-    <unzip  src="${build}/eml.zip" dest=".." />
+    <unzip  src="${build}/medialab.zip" dest=".." />
   </target>
  
 </project>

@@ -13,7 +13,7 @@ var tmp = root + "/WEB-INF/tmp";
 
 log.add("1. GET THE LATEST ZIP FILE");
 var downloader = new Downloader();
-downloader.download( war, tmp + "/app.zip");
+downloader.download( zip, tmp + "/app.zip");
 
 log.add("2. UNZIP WAR FILE");
 var unziper = new ZipUtil();
@@ -22,7 +22,7 @@ unziper.unzip(  tmp + "/app.zip",  tmp );
 var files = new FileUtils();
 log.add("4. UPGRADE BASE DIR");
 files.deleteAll( root + "/" + appname);
-files.copyFiles( tmp + "/" + appname, root);
+files.copyFiles( tmp + "/" + appname, root + "/" + appname);
 
 log.add("5. CLEAN UP");
 files.deleteAll(tmp);
