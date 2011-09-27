@@ -18,6 +18,7 @@
   <script id="jquery-validate" src="/${applicationid}/components/javascript/jquery.validate.js"/>
   <script id="jquery-select" src="/${applicationid}/components/javascript/ui.selectmenu.js"/>
   <script id="entermedia" src="/${applicationid}/components/javascript/entermedia.js"/>
+  <script id="download" src="/${applicationid}/components/javascript/syncdownload.js"/>
   <script id="theme-js" src="/${applicationid}/components/javascript/ui-components.js"/>
   <property name="fallbackdirectory">/WEB-INF/base/emfrontend</property>
   <property name="title">MediaLab</property>
